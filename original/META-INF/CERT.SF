@@ -1,44 +1,188 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA-256-Digest-Manifest: 3kwHvaAZyO1peEIvTVYhzOyPTAq66Bpt9EAknFFf0E8=
+SHA-256-Digest-Manifest: 5ODL4ubwG2IVTUrfcG3W89zMOGrj3K44jy5iv6RI/Vw=
 X-Android-APK-Signed: 2, 3
 
 Name: AndroidManifest.xml
-SHA-256-Digest: KsROMOnNY6vYCNFdJteTK5wM5cg+B5YNA/NsWRUTFNo=
+SHA-256-Digest: Gejx7z6n1XKqTFSi8sF5O9zXyjA3mjtxH8lq4oAyxIQ=
 
 Name: classes.dex
-SHA-256-Digest: lVn8UglmFD3g2nSTEKJFcOyDe04jAERk3+PuDvhVjXQ=
+SHA-256-Digest: CQgstsIHeHQFGlcri5WIb1bPUOb6MrJIl1HcBm6AvLE=
 
-Name: res/drawable-hdpi-v4/img_no_image.png
-SHA-256-Digest: XblUFZvNd8BFsD5hSnPgLaYu9msgdFyc5gHJSfMxbQY=
+Name: lib/arm64-v8a/libAoid.frameworks.bufferhub-1.0.so
+SHA-256-Digest: KYvBOjj0oUDF1E64VNRWLvCv2Gddjof4xzbzgQnEXLQ=
 
-Name: res/drawable-hdpi-v4/ims_state.png
-SHA-256-Digest: +qYKuA2xmVnVEuLKwv3tXjGR98x+sUkod8GMMsq6skY=
+Name: lib/arm64-v8a/libAoid.hardware.configstore-1.0.so
+SHA-256-Digest: 2QhNJqn4nWgAkZHJuofnPSGHc36IBb7dtrsN43zQ35s=
 
-Name: res/drawable-hdpi-v4/volte_icon
-SHA-256-Digest: Lj7ZDx8o5889/dJ+lN1UQ3SNUdv/rMR+A+t6GseVJxo=
+Name: lib/arm64-v8a/libAoid.hardware.configstore-1.1.so
+SHA-256-Digest: /0YUASxgQJpYFCpR30fj/gPfvnL6r8T2DYcbEywPKeE=
 
-Name: res/drawable-mdpi-v4/img_no_image.png
-SHA-256-Digest: 8xFIPasEmWold9fWUgK0LDXD3Pk+fAPhkq4Aul87E/E=
+Name: lib/arm64-v8a/libAoid.hardware.configstore-utils.so
+SHA-256-Digest: gyOSi207KoMUeHjSMwA1T/CfYDpz6snVX0PIcR5qZvU=
 
-Name: res/drawable-mdpi-v4/ims_state.png
-SHA-256-Digest: cWPDt5FcVnN2COWsn55zQrEOF7FPJtvOh5lvNhMcyJA=
+Name: lib/arm64-v8a/libAoid.hardware.graphics.allocator-2.0.so
+SHA-256-Digest: nitfjfNLEx9wfHOh9HBtS1uOr25UEtVPmhpUgPQE7I0=
 
-Name: res/drawable-mdpi-v4/volte_icon
-SHA-256-Digest: 6PGCQayOmRTOZ9VQgR1JeWZcoGsaEuhVOSerBkxZAlw=
+Name: lib/arm64-v8a/libAoid.hardware.graphics.allocator-3.0.so
+SHA-256-Digest: sjeAzseI3m29+XfH/3J2yEqCNRK/tMolRCFbFQ+zJl8=
 
-Name: res/drawable-xhdpi-v4/img_no_image.png
-SHA-256-Digest: g10xH+W36yp5p+lg5sj9mhx6ly4H0nuxnxZ3Xww70jE=
+Name: lib/arm64-v8a/libAoid.hardware.graphics.bufferqueue-1.0.so
+SHA-256-Digest: LpcXzEz+bBt/3QjLlYocZyQJRBAVnCdms8iJARxYGzA=
 
-Name: res/drawable-xhdpi-v4/ims_state.png
-SHA-256-Digest: PDtD0yeV5Ivq6BqTzWLSfiihU7E4gjMoPDQsea5DxFc=
+Name: lib/arm64-v8a/libAoid.hardware.graphics.bufferqueue-2.0.so
+SHA-256-Digest: 6xiiYuGFeEZ0Brzy/nnxmyrhWEGc5fv5ZYKRZna9Rkc=
 
-Name: res/drawable-xhdpi-v4/volte_icon
-SHA-256-Digest: tOIfbNMxcF4mcrTwzY/66wryb6r+fF3mZc5nW9GhLSU=
+Name: lib/arm64-v8a/libAoid.hardware.graphics.common-1.0.so
+SHA-256-Digest: V6EA15XVN41UqcnvemFgSMtjH40mO8JQU8np8oUW5QY=
+
+Name: lib/arm64-v8a/libAoid.hardware.graphics.common-1.1.so
+SHA-256-Digest: X3fmrTv7kJ2ZnkXco8thMOzvqBEBKfhNphbO6YTsygw=
+
+Name: lib/arm64-v8a/libAoid.hardware.graphics.common-1.2.so
+SHA-256-Digest: dvqjzXbpONfh3bjHLBL81P6dPCil+IVYnk+tjNB/7LY=
+
+Name: lib/arm64-v8a/libAoid.hardware.graphics.mapper-2.0.so
+SHA-256-Digest: uXWxrkrMHuSX+bzhcL3+zYZ2DAmi+XcriCmov2wNt5o=
+
+Name: lib/arm64-v8a/libAoid.hardware.graphics.mapper-2.1.so
+SHA-256-Digest: inOr2iQnGeDohxkKEgAg1VHfSXpPkt+b9A6qZHw4CEA=
+
+Name: lib/arm64-v8a/libAoid.hardware.graphics.mapper-3.0.so
+SHA-256-Digest: lzPiRepKJpoNTtBFGKSw0cFGLzyaDVTjT5IRHXvA3/s=
+
+Name: lib/arm64-v8a/libAoid.hardware.media-1.0.so
+SHA-256-Digest: ts5TEUlW4X9sHqFUe612T5cj/OaS4V+zBVvpPqsZ9N4=
+
+Name: lib/arm64-v8a/libAoid.hidl.token-1.0-utils.so
+SHA-256-Digest: c7VM4XcL5/cDEaFx7c4TAQr+N/yVyQYNonkPip00/Xs=
+
+Name: lib/arm64-v8a/libAoid.hidl.token-1.0.so
+SHA-256-Digest: gGlcvzxO+Kg9dpyq6WMfbus6zrlu9OsFCpRHTYlbyaw=
+
+Name: lib/arm64-v8a/libbacktrace.so
+SHA-256-Digest: xjKCNQjzZ0q8YHuoadfu1HURcMJZq+cbKtfy/l1Dj+s=
+
+Name: lib/arm64-v8a/libbase.so
+SHA-256-Digest: vpQ4hh1TOOJivlHg92p4Zx783GoLbXjJjE9vHbvJSws=
+
+Name: lib/arm64-v8a/libbinder.so
+SHA-256-Digest: krpLZc/UfuM8+26G222B3HJKLk4X3FOKd7ZN9/6Exo8=
+
+Name: lib/arm64-v8a/libbinderthreadstate.so
+SHA-256-Digest: JrBuXDtNjpHTjRJ18/oaL+6zxd8zXwCJP+0w7ZQO5Lk=
+
+Name: lib/arm64-v8a/libbufferhub.so
+SHA-256-Digest: KpWoUUlRrRXCiMR5BitrMCDCkkOCFVhGtjD4GDoYPC8=
+
+Name: lib/arm64-v8a/libbufferhubqueue.so
+SHA-256-Digest: qxHV8UZHM0F5a5A72FT/Pg6eplt+pV6XBrm5EKnOGU4=
+
+Name: lib/arm64-v8a/libc++.so
+SHA-256-Digest: uPRoGxZEux7unDtWWGsZyrvfHiccFQNN7njLyidWDDM=
+
+Name: lib/arm64-v8a/libcgrouprc.so
+SHA-256-Digest: 2C5Dir+xeSlqf0OTr1YQAX9ZaRMNUsHnOu3QJMS7O6k=
+
+Name: lib/arm64-v8a/libcrypto.so
+SHA-256-Digest: Jyd1UqqEBHcMymEHgOqa0X2DwHx3yxKlsW6MGsKVdWs=
+
+Name: lib/arm64-v8a/libcutils.so
+SHA-256-Digest: 1DqvQHRuquZJ6m7DljgSK4L0JLWXF51t6KIAZr2PeSo=
+
+Name: lib/arm64-v8a/libdexfile.so
+SHA-256-Digest: itAAPTRBMRoAHzXJGlnP1LGxRPU9GMxBtv9WDXl5YYI=
+
+Name: lib/arm64-v8a/libdl_android.so
+SHA-256-Digest: /hCUXiW+7agWid8725wGfNsDLzCRKM/mmMYCHFOEXpE=
+
+Name: lib/arm64-v8a/libgui.so
+SHA-256-Digest: tNhxyFXL0QftH4qu8GiAW0wdXHWcrKab4kih3WdewbA=
+
+Name: lib/arm64-v8a/libhardware.so
+SHA-256-Digest: b7wVumwYXgZks1OJFbkA4UR+YYSIr7hT+SjoQ1ajZKM=
+
+Name: lib/arm64-v8a/libhidlbase.so
+SHA-256-Digest: VEVc2Sfv5WjI5GBQ+jiHfctMdum0ZWLlFELj0+N/FgQ=
+
+Name: lib/arm64-v8a/libhidltransport.so
+SHA-256-Digest: 8dFCiwqv5TU79vu5yAr5A0CkB/Rn+2fe4eSjW9wkxD8=
+
+Name: lib/arm64-v8a/libhwbinder.so
+SHA-256-Digest: CXMmssQLmul4pp67oX1i0iYpoKUG3ZxrwW8l/RtTmnY=
+
+Name: lib/arm64-v8a/libimscamera_jni.so
+SHA-256-Digest: /WD+b2IcqrPALZ1VDWZW5BLYV02RzEY8oZForvM8p38=
+
+Name: lib/arm64-v8a/libimsmedia_jni.so
+SHA-256-Digest: YFgoea0Mk19e3o/cKx0oXbyi5XQuTQRcjfMdzyMuXXU=
+
+Name: lib/arm64-v8a/libinput.so
+SHA-256-Digest: o69JW/nMnicNV8hzMfIaHKdii87sbq7BQjlxPmWQYvo=
+
+Name: lib/arm64-v8a/liblzma.so
+SHA-256-Digest: rQUWdeDjQgdSBwtYBDDTLeSKI9NyHhCaMZ05AkNEFQE=
+
+Name: lib/arm64-v8a/libnativehelper.so
+SHA-256-Digest: f0IpaZTlZEsYqN5/adJNucVUUncGW2wB2quKJchZeK4=
+
+Name: lib/arm64-v8a/libnativeloader.so
+SHA-256-Digest: nbGl4Gi3g25dgUlP4KkX5nzMCYSmGEQT9cfzYvuJszY=
+
+Name: lib/arm64-v8a/libpdx_default_transport.so
+SHA-256-Digest: R77hASeEuJn3bsFLp2jDB4zgH+i06Dc9xB9PU3frG30=
+
+Name: lib/arm64-v8a/libprocessgroup.so
+SHA-256-Digest: o/AkJAnWjjZaRfnkaR+iopTHLI29Y9YFwK7NsozWAh0=
+
+Name: lib/arm64-v8a/libssl.so
+SHA-256-Digest: nlEpR84diJsFqVbD5r0c3DmSdG2aIJ7LmV+FNz08Djk=
+
+Name: lib/arm64-v8a/libui.so
+SHA-256-Digest: FVbAIiKeQgkSkcfaewr4IxJQd63G4A6yeafHSWRfJL4=
+
+Name: lib/arm64-v8a/libunwindstack.so
+SHA-256-Digest: SVXrmF4NXJdEqZVyyWfA5qWmJalRltYHN0GLHfS41yc=
+
+Name: lib/arm64-v8a/libutils.so
+SHA-256-Digest: G3VCTm78cehwXC62sHs7V+vXLhGgFAiwBVZL2/E6Glg=
+
+Name: lib/arm64-v8a/libutilscallstack.so
+SHA-256-Digest: hMQXeqUkCN8Pju8jSwDrjOPGC8Px45/MVKYFCjmMdqQ=
+
+Name: lib/arm64-v8a/libvndksupport.so
+SHA-256-Digest: 14Un0Q10Oj4ziEOlFuOf2nCTA9Nf+5EWgayhaoxjSpE=
+
+Name: res/drawable-hdpi/img_no_image.png
+SHA-256-Digest: z9i9JNLokUZhxqNFMsJ8pKf2pDHhpV8SSF8KEX0Ccvs=
+
+Name: res/drawable-hdpi/ims_state.png
+SHA-256-Digest: t+p4KNTZT8u7Wprke9yCCmTeetIlIgHdlFaE4oFIOIc=
+
+Name: res/drawable-hdpi/volte_icon
+SHA-256-Digest: 2APLEpRNsPgKzEFJnEAY5Ylbd9Lclk3BUQ1pPynrC0U=
+
+Name: res/drawable-mdpi/img_no_image.png
+SHA-256-Digest: lhXIxNEgBIsww/9tkFJ3vf+VGDTTpph6hLRsSoAPzSo=
+
+Name: res/drawable-mdpi/ims_state.png
+SHA-256-Digest: tgdnUjz0rC09g/yTsnQrgG5mD5CbwAzTTxDnuJHWJwc=
+
+Name: res/drawable-mdpi/volte_icon
+SHA-256-Digest: XmWKiSP17WlRNjVarGDT2MQlM8i+WEqacA9bs7DYCyI=
+
+Name: res/drawable-xhdpi/img_no_image.png
+SHA-256-Digest: EE0iUb6LOucH7jn9QVW1AIC/TgygBcopjjn7nELHGIo=
+
+Name: res/drawable-xhdpi/ims_state.png
+SHA-256-Digest: YKSwLfnHKwRaHrDpe07lgxr867I2HZtgv9CUnrtWbqQ=
+
+Name: res/drawable-xhdpi/volte_icon
+SHA-256-Digest: 4s4fZ4SpI9rsUxn81NaYYmcI/kTJIH3Pl9wddClHYfE=
 
 Name: res/drawable/img_no_image.png
 SHA-256-Digest: FKH+O+9+T53w7DixPpO2aQAhnDxBjuTUZeuZd6Z78v4=
 
 Name: resources.arsc
-SHA-256-Digest: dj0q7OS7TKycnS5xaZNKrogoOkownTGsPm0T7zmNPSE=
+SHA-256-Digest: EGWV4KMvtyCtrAtybq7tMKwEg7QEDmh60H81QKRQdls=
 

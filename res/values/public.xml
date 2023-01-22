@@ -19,7 +19,6 @@
     <public type="string" name="handover_from_wifi_to_lte" id="0x7f030007" />
     <public type="string" name="hd_icon_header_app_name" id="0x7f030008" />
     <public type="string" name="ims_channel_name" id="0x7f030009" />
-    <public type="string" name="incoming_call_failed_low_battery" id="0x7f030012" />
     <public type="string" name="APKTOOL_DUMMY_a" id="0x7f03000a" />
     <public type="string" name="APKTOOL_DUMMY_b" id="0x7f03000b" />
     <public type="string" name="APKTOOL_DUMMY_c" id="0x7f03000c" />
@@ -28,4 +27,5 @@
     <public type="string" name="APKTOOL_DUMMY_f" id="0x7f03000f" />
     <public type="string" name="APKTOOL_DUMMY_10" id="0x7f030010" />
     <public type="string" name="APKTOOL_DUMMY_11" id="0x7f030011" />
+    <public type="string" name="incoming_call_failed_low_battery" id="0x7f030012" />
 </resources>

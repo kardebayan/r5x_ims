@@ -162,27 +162,7 @@
     return-void
 .end method
 
-.method static synthetic access$000(Lorg/codeaurora/ims/ImsCallModification;)V
-    .locals 0
-    .param p0, "x0"    # Lorg/codeaurora/ims/ImsCallModification;
-
-    .line 47
-    invoke-direct {p0}, Lorg/codeaurora/ims/ImsCallModification;->clearPendingModify()V
-
-    return-void
-.end method
-
-.method static synthetic access$100(Lorg/codeaurora/ims/ImsCallModification;)V
-    .locals 0
-    .param p0, "x0"    # Lorg/codeaurora/ims/ImsCallModification;
-
-    .line 47
-    invoke-direct {p0}, Lorg/codeaurora/ims/ImsCallModification;->processPendingVTMultitask()V
-
-    return-void
-.end method
-
-.method static synthetic access$200(Lorg/codeaurora/ims/ImsCallModification;)Lorg/codeaurora/ims/CallModify;
+.method static synthetic access$000(Lorg/codeaurora/ims/ImsCallModification;)Lorg/codeaurora/ims/CallModify;
     .locals 1
     .param p0, "x0"    # Lorg/codeaurora/ims/ImsCallModification;
 
@@ -192,13 +172,33 @@
     return-object v0
 .end method
 
-.method static synthetic access$300(Lorg/codeaurora/ims/ImsCallModification;I)V
+.method static synthetic access$100(Lorg/codeaurora/ims/ImsCallModification;I)V
     .locals 0
     .param p0, "x0"    # Lorg/codeaurora/ims/ImsCallModification;
     .param p1, "x1"    # I
 
     .line 47
     invoke-direct {p0, p1}, Lorg/codeaurora/ims/ImsCallModification;->updatePreviousVTCallType(I)V
+
+    return-void
+.end method
+
+.method static synthetic access$200(Lorg/codeaurora/ims/ImsCallModification;)V
+    .locals 0
+    .param p0, "x0"    # Lorg/codeaurora/ims/ImsCallModification;
+
+    .line 47
+    invoke-direct {p0}, Lorg/codeaurora/ims/ImsCallModification;->clearPendingModify()V
+
+    return-void
+.end method
+
+.method static synthetic access$300(Lorg/codeaurora/ims/ImsCallModification;)V
+    .locals 0
+    .param p0, "x0"    # Lorg/codeaurora/ims/ImsCallModification;
+
+    .line 47
+    invoke-direct {p0}, Lorg/codeaurora/ims/ImsCallModification;->processPendingVTMultitask()V
 
     return-void
 .end method
@@ -540,14 +540,14 @@
     .locals 4
     .param p1, "callDetails"    # Lorg/codeaurora/ims/CallDetails;
 
-    .line 792
+    .line 781
     iget-object v0, p0, Lorg/codeaurora/ims/ImsCallModification;->mImsCallSessionImpl:Lorg/codeaurora/ims/ImsCallSessionImpl;
 
     invoke-virtual {v0}, Lorg/codeaurora/ims/ImsCallSessionImpl;->getCallProfile()Landroid/telephony/ims/ImsCallProfile;
 
     move-result-object v0
 
-    .line 793
+    .line 782
     .local v0, "callProfile":Landroid/telephony/ims/ImsCallProfile;
     const/4 v1, 0x0
 
@@ -565,7 +565,7 @@
 
     goto :goto_0
 
-    .line 797
+    .line 786
     :cond_0
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -585,7 +585,7 @@
 
     invoke-static {p0, v2}, Lcom/qualcomm/ims/utils/Log;->i(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 798
+    .line 787
     iget v2, p1, Lorg/codeaurora/ims/CallDetails;->rttMode:I
 
     const/4 v3, 0x1
@@ -603,7 +603,7 @@
     :cond_1
     return v1
 
-    .line 794
+    .line 783
     :cond_2
     :goto_0
     return v1
@@ -1859,39 +1859,39 @@
 .method public close()V
     .locals 2
 
-    .line 802
+    .line 791
     iget-object v0, p0, Lorg/codeaurora/ims/ImsCallModification;->mHandler:Landroid/os/Handler;
 
     const/16 v1, 0x9
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 803
+    .line 792
     iget-object v0, p0, Lorg/codeaurora/ims/ImsCallModification;->mCallModifyRequest:Lorg/codeaurora/ims/CallModify;
 
     if-eqz v0, :cond_0
 
-    .line 804
+    .line 793
     sget v1, Lorg/codeaurora/ims/CallModify;->E_CANCELLED:I
 
     iput v1, v0, Lorg/codeaurora/ims/CallModify;->error:I
 
-    .line 805
+    .line 794
     const-string v0, "Cancel pending call modification before being closed"
 
     invoke-static {p0, v0}, Lcom/qualcomm/ims/utils/Log;->i(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 806
+    .line 795
     iget-object v0, p0, Lorg/codeaurora/ims/ImsCallModification;->mImsCallSessionImpl:Lorg/codeaurora/ims/ImsCallSessionImpl;
 
     iget-object v1, p0, Lorg/codeaurora/ims/ImsCallModification;->mCallModifyRequest:Lorg/codeaurora/ims/CallModify;
 
     invoke-virtual {v0, v1}, Lorg/codeaurora/ims/ImsCallSessionImpl;->notifyUnsolCallModify(Lorg/codeaurora/ims/CallModify;)V
 
-    .line 807
+    .line 796
     invoke-direct {p0}, Lorg/codeaurora/ims/ImsCallModification;->clearPendingModify()V
 
-    .line 809
+    .line 798
     :cond_0
     return-void
 .end method
@@ -1983,7 +1983,7 @@
 .method public isVideoPauseRequested()Z
     .locals 1
 
-    .line 787
+    .line 776
     iget-boolean v0, p0, Lorg/codeaurora/ims/ImsCallModification;->mIsVideoPauseRequested:Z
 
     return v0

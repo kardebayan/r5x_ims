@@ -145,8 +145,6 @@
     .line 192
     const-string v0, "imsmedia_jni"
 
-    invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
-
     .line 193
     return-void
 .end method
